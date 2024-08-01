@@ -21,6 +21,12 @@ main{
     background-repeat: no-repeat;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.445);
+}
+
 h1 {
     position: absolute;
     top: 50%;
@@ -28,5 +34,5 @@ h1 {
     transform: translate(-50%, -50%);
     font-size: 100px;
     font-family: juice;
-    color: rgba(0, 0, 0, 0.699);
+    color: rgba(202, 196, 196, 0.699);
 }
