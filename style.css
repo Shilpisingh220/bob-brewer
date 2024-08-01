@@ -1,0 +1,32 @@
+@font-face {
+    font-family:juice ;
+    src: url("Hello\ Valentina.ttf");
+
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+} 
+
+html, body, main {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: juice;
+    color: rgba(0, 0, 0, 0.699);
+}
